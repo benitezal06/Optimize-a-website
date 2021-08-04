@@ -1412,7 +1412,7 @@ a {
 
 a:focus,
 a:hover {
-    color: #23527c;
+    color: #F3976C;
     text-decoration: underline
 }
 
@@ -1509,7 +1509,7 @@ h6 {
     font-family: inherit;
     font-weight: 500;
     line-height: 1.1;
-    color: inherit
+    color:inherit
 }
 
 .h1 .small,
