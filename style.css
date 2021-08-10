@@ -90,10 +90,10 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
+    /* .texture-paper::before {
+        background: url("img/texture-paper.png");
+        background-size: 280px 280px;
+    } */
 
 .b-parallax {
     background-attachment: fixed;
@@ -286,6 +286,15 @@ a:hover {
 #bloc-2-services p {
     font-size: 11px;
 }
+#bloc-2-services .WebDescription{
+    font-size: 25px;
+    color: black;
+}
+
+#bloc-2-services .customer_review{
+    font-size: 15px;
+    
+}
 
 .navbar {
     margin-bottom: 0;
@@ -360,6 +369,10 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+#bloc-4-portfolio .portafolio{
+    font-size: 25px;
+    color: black;
 }
 
 @media (min-width: 768px) {
@@ -653,7 +666,7 @@ a {
 }
 label,p{
     font-family: "helvetica";
-    color:#00000080;
+    color:#2C394B;
     font-weight: 400;
 }
 
@@ -712,12 +725,15 @@ h2 {
     line-height: 1.4em;
 }
 
+
 h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
+    line-height: 1.5;
 }
+
 
 .med-width-whitespace {
     max-width: 800px;
@@ -788,12 +804,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #F39760;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #e66407!important;
     color: #FFFFFF!important;
 }
 
@@ -824,14 +840,20 @@ h4 {
 
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
+    height: 400px;
+    
 }
 
 .bg-atlanta-20made-20sign {
     background-image: url("img/atlanta%20made%20sign.jpg");
+    height: 400px;
+    width: 100%;
 }
 
 .bg-atlanta-20made-20sign-20orange {
     background-image: url("img/atlanta%20made%20sign%20orange.jpg");
+    height: 500px;
+    width: 100%;
 }
 
 @media (max-width: 1024px) {

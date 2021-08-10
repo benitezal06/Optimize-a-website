@@ -1427,8 +1427,13 @@ figure {
 }
 
 img {
-    vertical-align: middle
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
 }
+
+
 
 .carousel-inner>.item>a>img,
 .carousel-inner>.item>img,
@@ -1436,8 +1441,8 @@ img {
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
-    max-width: 100%;
-    height: auto
+    max-width: 270px;
+    height: 270px
 }
 
 .img-rounded {
@@ -2303,8 +2308,8 @@ pre code {
     .col-sm-9 {
         float: left
     }
-    .col-sm-12 {
-        width: 100%
+    .col-sm-12{
+        width: 100%;
     }
     .col-sm-11 {
         width: 91.66666667%
